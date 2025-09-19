@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Portfolio</title>
+    <title>Prodipta Mondal - Personal Portfolio</title>
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
@@ -96,37 +96,101 @@
             padding-bottom: 5px;
             color: #005030;
         }
+        .publication {
+            margin-bottom: 15px;
+        }
+        .publication h3 {
+             margin: 0 0 5px;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
         <header>
-            <h1>Prodipta Diptoo</h1>
-            <p>Department of Computer Science</p>
-            <p>University Name</p>
+            [cite_start]<h1>Prodipta Mondal</h1> [cite: 1]
+            <p>Aspiring Ph.D. Student | Software Engineer</p>
         </header>
 
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Research</a>
-            <a href="#">Publications</a>
-            <a href="#">Teaching</a>
-            <a href="#">CV</a>
+            <a href="#home">Home</a>
+            <a href="#research">Research & Publications</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
         </nav>
 
         <div class="main-content">
             <div class="content-area">
-                <h2>Home</h2>
-                <p>
-                    I am a [Your Role] in the [Your Department] at the [Your University]. My research interests aim to improve [Your Field], particularly those that arise from [Your Focus Area]. I develop tools and techniques to gain a deeper understanding of complex topics, including security, usability, and reliability through code analysis and program comprehension.
-                </p>
-                <p>
-                    Prior to joining [Your University], I worked in industry as a [Your Previous Role] for over [Number] years, contributing to the development and maintenance of various web-based applications.
-                </p>
-                 <p>
-                    I hold a B.S. in [Your Field] from [Your University] and an M.S. in [Your Field] from [Your University].
-                </p>
+                <section id="home">
+                    <h2>Objective</h2>
+                    <p>
+                        [cite_start]I am an aspiring Ph.D. student with a background in software engineering and machine learning, aiming to conduct doctoral research under Assistant Professor Rrezarta Krasniqi. [cite: 5] [cite_start]My goal is to develop ML and NLP methods to automatically detect and understand software quality concerns—such as reliability, usability, security and maintainability—in large codebases and bug reports. [cite: 6]
+                    </p>
+                    <p>
+                        [cite_start]With over five years of industry experience in software quality and data-driven solutions, I am prepared to contribute to research on scattered quality concerns, bug triaging, and program comprehension. [cite: 7]
+                    </p>
+                </section>
+                
+                <section id="research">
+                    <h2>Research & Publications</h2>
+                    <div class="publication">
+                        [cite_start]<h3>“A Machine Learning Approach to Predict Autism Spectrum Disorder.”</h3> [cite: 13]
+                        <p>
+                            [cite_start]Published in the <i>Proceedings of the International Conference on Electrical, Computer and Communication Engineering (ECCE), 2019.</i> [cite: 13] [cite_start]Developed a hybrid model combining Random Forest–CART and Random Forest–ID3 and built a mobile application to screen autism traits. [cite: 13]
+                        </p>
+                    </div>
+                     <div class="publication">
+                        [cite_start]<h3>Loan Prediction using Logistic Regression (Janata Bank PLC) - 2023</h3> [cite: 15]
+                        <p>
+                            [cite_start]Designed and deployed a supervised model to predict loan approval probability. [cite: 15] [cite_start]Performed feature engineering, cross-validation, and model evaluation, integrating the model into core banking workflows. [cite: 16]
+                        </p>
+                    </div>
+                </section>
+
+                <section id="experience">
+                    <h2>Professional Experience</h2>
+                    <div class="job">
+                        <h3>Senior Officer – IT (Software Engineer) | Janata Bank PLC</h3>
+                        [cite_start]<p><i>Jul 2022 – Present</i> [cite: 19]</p>
+                        <ul>
+                            [cite_start]<li>Develop and maintain core banking modules with an emphasis on reliability and maintainability. [cite: 19]</li>
+                            [cite_start]<li>Lead System Integration Testing (SIT) and coordinate with cross-functional teams to triage issues. [cite: 22]</li>
+                            [cite_start]<li>Built and deployed a logistic regression model for loan approval prediction, integrated via RESTful APIs. [cite: 21, 22]</li>
+                        </ul>
+                    </div>
+                     <div class="job">
+                        <h3>Software Engineer (Level 2) | Enosis Solutions</h3>
+                        [cite_start]<p><i>Jan 2019 – Jul 2021</i> [cite: 23]</p>
+                        <ul>
+                            [cite_start]<li>Implemented enhancements and bug fixes for web and enterprise applications. [cite: 23]</li>
+                            [cite_start]<li>Performed requirement analysis, effort estimation, and collaborated with QA teams. [cite: 23, 24]</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section id="education">
+                    <h2>Education</h2>
+                     <p>
+                        <b>Bachelor of Science in Computer Science & Engineering</b><br>
+                        [cite_start]Military Institute of Science and Technology (MIST), Dhaka, Bangladesh [cite: 9, 10]<br>
+                        [cite_start]<i>Feb 2015 – Feb 2019</i> [cite: 10]
+                    </p>
+                </section>
+                
+                <section id="skills">
+                    <h2>Technical Skills</h2>
+                    <p>
+                        [cite_start]<b>Programming & Scripting:</b> Python (Scikit-Learn, Pandas, NumPy, NLTK), C#, C/C++, JavaScript, PHP, SQL [cite: 32]
+                    </p>
+                     <p>
+                        [cite_start]<b>Machine Learning & Data Analysis:</b> Supervised classification, Ensemble methods, Neural Networks, Feature Engineering, Cross-Validation, Model Evaluation [cite: 33]
+                    </p>
+                     <p>
+                        [cite_start]<b>Tools & Frameworks:</b> .NET Framework, Entity Framework, LINQ, Flask, Git, Jira [cite: 38]
+                    </p>
+                </section>
+
             </div>
 
             <aside class="sidebar">
@@ -134,25 +198,27 @@
                     Contact Information
                 </div>
                 <div class="sidebar-content">
-                    <img src="https://via.placeholder.com/200" alt="Your Name">
+                    <img src="https://via.placeholder.com/200" alt="Prodipta Mondal">
 
                     <p style="text-align: center; font-weight: bold; margin-top: 10px;">
-                        Aspiring Software Engineer
+                        Prodipta Mondal
                     </p>
                     <hr>
-                    <p><strong>E-mail:</strong> your.email@school.edu</p>
-                    <p><strong>Office Phone:</strong> (123) 456-7890</p>
-                    <p><strong>Office:</strong> Building Name, 123G</p>
+                    [cite_start]<p><strong>Email:</strong> dipto33120@gmail.com [cite: 2]</p>
+                    [cite_start]<p><strong>Phone:</strong> +880 1912-926739 [cite: 2]</p>
+                    [cite_start]<p><strong>Location:</strong> Dhaka, Bangladesh [cite: 2]</p>
                     <hr>
                     <p style="text-align: center;">
-                        <a href="#">LinkedIn</a> | <a href="#">Google Scholar</a> | <a href="#">GitHub</a>
+                        [cite_start]<a href="https://github.com/dipto33120" target="_blank">GitHub</a> [cite: 2] |
+                        [cite_start]<a href="https://codeforces.com/profile/riddikulus" target="_blank">Codeforces</a> [cite: 2] |
+                        [cite_start]<a href="https://leetcode.com/riddikulus/" target="_blank">LeetCode</a> [cite: 3]
                     </p>
                 </div>
             </aside>
         </div>
 
         <footer>
-            <p>Copyright &copy; Prodipta Diptoo</p>
+            <p>Copyright &copy; Prodipta Mondal</p>
         </footer>
 
     </div>
